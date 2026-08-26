@@ -1,0 +1,68 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background: #f5f7fa;
+}
+.page-title {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2d3d;
+}
+.page-desc {
+  margin: 0 0 20px;
+  color: #8c96a5;
+  font-size: 13px;
+}
+.stat-card .ant-statistic-title {
+  color: #7a8699;
+  font-size: 13px;
+}
+.stat-card .ant-statistic-content {
+  font-weight: 600;
+}
+.soft-card {
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(20, 40, 80, 0.05);
+  border: 1px solid #eef1f6;
+}
+.diff-up {
+  color: #16a34a;
+  font-weight: 600;
+}
+.diff-down {
+  color: #dc2626;
+  font-weight: 600;
+}
+.logo-box {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.logo-dot {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #4f8cff, #7c5cff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
