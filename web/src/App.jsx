@@ -81,10 +81,7 @@ export default function App() {
             <Badge count={3} size="small">
               <BellOutlined style={{ fontSize: 18, color: '#7a8699' }} />
             </Badge>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <Avatar style={{ background: token.colorPrimary }}>产</Avatar>
-              <span style={{ color: '#4b5563' }}>产品-Iris</span>
-            </div>
+            <Avatar style={{ background: token.colorPrimary }}>产</Avatar>
           </div>
         </Header>
         <Content style={{ margin: 24 }}>
